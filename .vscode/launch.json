@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Task 1",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "task1.py",
+            "console": "integratedTerminal",
+            "args": [".venv", "task1_out"]
+        },
+        {
+            "name": "Python Debugger: Task 2",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "task2.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}
